@@ -3,5 +3,5 @@ package workFlow
 import "fmt"
 
 func workFlow(){
-	fmt.Println("wait")
+	fmt.Println("wait--write")
 }
