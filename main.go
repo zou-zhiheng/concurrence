@@ -1,7 +1,8 @@
 package  main
 
-import "concurrence/ProducerConsumer"
+import "concurrence/WorkPool"
 
 func main(){
-	ProducerConsumer.ProducerConsumerDemo()
+	//ProducerConsumer.ProducerConsumerDemo()
+	WorkPool.Demo()
 }
