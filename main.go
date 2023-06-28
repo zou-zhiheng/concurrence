@@ -1,12 +1,10 @@
 package  main
 
 import (
-	"concurrence/WorkPool"
-	"fmt"
+	"concurrence/ProducerConsumer"
 )
 
 func main(){
-	//ProducerConsumer.ProducerConsumerDemo()
-	fmt.Println("test")
-	WorkPool.Demo()
+	ProducerConsumer.ProducerConsumerDemo()
+	//WorkPool.Demo()
 }
