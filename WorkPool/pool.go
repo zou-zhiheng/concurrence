@@ -36,7 +36,7 @@ func (w *Worker) Execute(task func()) {
 	w.taskChan <- task
 }
 
-func Demo() {
+func Demo () {
 	poolSize := 5
 	taskCount := 10
 
